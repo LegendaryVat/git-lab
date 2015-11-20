@@ -1,8 +1,16 @@
 #include <iostream>
 using namespace std;
 
+<<<<<<< HEAD
+int add(int a,int b)
+{
+	int total;
+	total = a + b;
+	return total;
+}
+=======
 int add(int,int);
-
+>>>>>>> 60daf4f2815fdbb996897ada893ca5f7c29ad079
 int subtract(int,int);
 
 int main(){
@@ -12,11 +20,5 @@ int main(){
 	
 	return 0;
 	
-}
-int add(int a,int b)
-{
-	int total;
-	total = a + b;
-	return total;
 }
 
